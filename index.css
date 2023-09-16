@@ -1,0 +1,138 @@
+.box {
+  border: 5px solid black;
+  margin: 4.374rem;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  user-select: none;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.1875rem;
+  user-select: none;
+}
+
+img .darrodSharif {
+  margin-left: 600px;
+}
+
+.heavenPageImg {
+  width: 172px;
+  margin-left: 519px;
+  height: 183px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* box margin : 0 aut0 */
+
+@media (min-width: 994px) and (max-width: 1110px) {
+  .SameImg {
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+  .box {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .darrodSharif {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .box {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .darrodSharif {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+  .heavenPageImg {
+    width: 172px;
+    margin-left: 260px;
+    height: 183px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .box {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .darrodSharif {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+}
+@media (min-width: 350px) and (max-width: 766px) {
+  h1 {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .box {
+    margin: 20px auto;
+    width: 70%;
+  }
+  .darrodSharif {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+  .heavenPageImg {
+    width: 172px;
+    margin-left: 43px;
+    height: 183px;
+  }
+}
+@media (min-width: 290px) and (max-width: 348px) {
+  h1 {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  .box {
+    margin: 20px auto;
+    width: 91%;
+  }
+  .darrodSharif {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+  .heavenPageImg {
+    width: 172px;
+    margin-left: 32px;
+    height: 183px;
+  }
+}
